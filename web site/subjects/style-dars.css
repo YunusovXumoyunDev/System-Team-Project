@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.png);
+    background-size: cover;
+    /* Moviy rang */
+}
+
+header {
+    background-color: #1e90ff;
+    /* Moviy rang */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.tests {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.test-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.test-item input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    /* Moviy rang */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #1c80d6;
+    /* Moviy rang */
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-logo {
+    margin-right: 20px;
+}
+
+.header-logo img {
+    max-height: 50px;
+}
+
+.header-content {
+    flex-grow: 1;
+    text-align: center;
+}
