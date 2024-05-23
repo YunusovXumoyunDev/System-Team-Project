@@ -171,9 +171,9 @@ body {
   }
 
 
-  /* kirish.html */
+  /* kirish.html va register.html */
 
-  .body-kirish {
+  body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -187,7 +187,7 @@ body {
     align-items: center;
   }
   
-  .container-kirish {
+  .container {
     width: 400px;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.829);
@@ -200,18 +200,18 @@ body {
     margin: 0;
   }
   
-  .login-box-kirish .category-kirish {
+  .login-box .category {
     margin: 0 0 30px;
     padding: 0;
     color: #00C2FF;
     text-align: center;
   }
   
-  .user-box-kirish {
+  .user-box {
     position: relative;
   }
   
-  .user-box-kirish input {
+  .user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -223,7 +223,7 @@ body {
     background: transparent;
   }
   
-  .user-box-kirish label {
+  .user-box label {
     position: absolute;
     top: 0;
     left: 0;
@@ -234,15 +234,15 @@ body {
     transition: .5s;
   }
   
-  .user-box-kirish input:focus ~ label,
-  .user-box-kirish input:valid ~ label {
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
     top: -20px;
     left: 0;
     color: #00C2FF;
     font-size: 12px;
   }
   
-  .login-btn-kirish {
+  .login-btn {
     position: relative;
     display: block;
     padding: 10px 20px;
@@ -262,7 +262,7 @@ body {
   }
   
 
-  .register-btn-kirish {
+  .register-btn {
     position: relative;
     display: block;
     padding: 10px 15px;
@@ -271,12 +271,12 @@ body {
     text-decoration: none;
     text-align: right;
   }
-  .category-kirish{
+  .category{
     font-family: "Koulen", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  .login-rigistr-kirish{
+  .login-rigistr{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -285,11 +285,11 @@ body {
   
   }
 
-  .div-los-kirish{
+  .div-los{
     margin-bottom: 5px;
   }
   
-  .form-reg-kirish{
+  .form-reg{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -297,7 +297,7 @@ body {
     justify-content: center;
 }
 
-.reg-container-kirish{
+.reg-container{
   width: 720px;
   height: 500px;
   padding: 40px;
