@@ -1,0 +1,38 @@
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 300px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #0f0;
+}
+
+.btn.active {
+    transform: scale(0.9);
+    background-color: #00f;
+}
