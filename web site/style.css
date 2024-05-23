@@ -169,3 +169,140 @@ body {
   .subject-btn:hover {
     transform: scale(1.05);
   }
+
+
+  /* kirish.html */
+
+  .body-kirish {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-kirish {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.829);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.829);
+    border-radius: 10px;
+  }
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .login-box-kirish .category-kirish {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #00C2FF;
+    text-align: center;
+  }
+  
+  .user-box-kirish {
+    position: relative;
+  }
+  
+  .user-box-kirish input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #00C2FF;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box-kirish label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .user-box-kirish input:focus ~ label,
+  .user-box-kirish input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #00C2FF;
+    font-size: 12px;
+  }
+  
+  .login-btn-kirish {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #00C2FF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+
+  .register-btn-kirish {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color:#001AFF;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+  }
+  .category-kirish{
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .login-rigistr-kirish{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+;
+  
+  }
+
+  .div-los-kirish{
+    margin-bottom: 5px;
+  }
+  
+  .form-reg-kirish{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.reg-container-kirish{
+  width: 720px;
+  height: 500px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.829);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(255, 255, 255, 0.829);
+  border-radius: 10px;
+}
