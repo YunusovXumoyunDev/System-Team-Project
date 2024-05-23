@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Olim_prototip</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Ushbu ilovada siz barcha soxalarni mustaqil ravishda organa olasiz. Va siz organish davomida siz oz bilimlaringizni sinab borishingiz ham mumkin</string>
+    <string name="mathematics">Matematika</string>
+    <string name="it">IT savodxonlik</string>
+    <string name="physics">Fizika</string>
+    <string name="chemistry">Kimyo</string>
+    <string name="language">Tilshunoslik</string>
+    <string name="story">Tarix</string>
+    <string name="it_description">Sizning yoshingiz va kompyuter bilan qanday tajribaga ega bolishingiz muhim emas - kompyuter kurslarida siz kerakli oquv kursini topasiz. Umuman olganda ishingizning samaradorligi va sifati kompyuter dasturlaridan qanchalik samarali foydalanishingiz bilan bogliq bolib, asosiy kompyuter konikmalaridan boshlang va zamonaviy axborot-kommunikatsiya texnologiyalarini (AKT) organishni davom eting. Kompyuterda oqitish - bu axborot texnologiyalari dunyosi bilan tanishishning eng yaxshi usuli.Kurs davomida siz :
+Microsoft office dasturlaridan:
+-Word;
+-Excel;
+-Power point va fayllar bilan ishlashni o’rganasiz.</string>
+    <string name="math_description">Matematika — kichik yoshimizdan tanishishni boshlaydigan keng ilm. Shu sabab uning birinchi sinfdan dars sifatida o‘qitilishi bejiz emas. Axir umumiy matematik bilimlarsiz zamonaviy dunyoda judayam nochor bo‘lib qolardik. Xuddi ilmlar qirolichasisiz kimyo, fizika, tibbiyot va boshqa ko‘plab fanlar mavjud bo‘lmagani kabi. Keling, matematika to‘g‘risidagi qiziqarli malumotlar bilan tanishamiz.</string>
+    <string name="physics_description">Fizika fani eksperimental va nazariy fizikaga boʻlinadi. Eksperimental fizika tajribalar asosida yangi maʼlumotlar oladi va qabul qilingan qonunlarni tekshiradi. Nazariy fizika tabiat qonunlarini taʼriflaydi, oʻrganiladigan hodisalarni tushuntiradi va yuz berishi mumkin boʻlgan hodisalarni oldindan aytib beradi.</string>
+    <string name="chemistry_description">Kimyo fani boshqa fanlardan shunisi bilan farq qiladiki, bu fanning natijalari aniq ishlab chiqarish (kimyo sanoati) sohalarida qoʻllaniladi, fanning bu sohasi kimyoviy texnologiya deb nomlanadi. Kimyoviy texnologiya kimyo fanining chuqur ilmiy tekshirishlar natijasida ishlab chiqilgan uslub, qonuniyatlar va iqtisodiy hisoblashlarga tayangan holda xalq xoʻjaligida foydalaniladigan kimyoviy moddalar ishlab chiqarish va ularning muammolari bilan shugʻullanadigan boʻlimidir.</string>
+
+</resources>

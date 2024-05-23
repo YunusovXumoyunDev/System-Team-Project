@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        tools:layout="@layout/splash_screen"
+        android:name="com.example.olim_prototip.screen.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_loginScreen"
+            app:destination="@id/loginScreen"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_host"  />
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_host" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.example.olim_prototip.screen.LoginScreen"
+        android:label="screen_login"
+        tools:layout="@layout/screen_login" >
+        <action
+            android:id="@+id/action_loginScreen_to_createScreen"
+            app:destination="@id/createScreen" />
+        <action
+            android:id="@+id/action_loginScreen_to_forgetPasswordScreen"
+            app:destination="@id/forgetPasswordScreen" />
+        <action
+            android:id="@+id/action_loginScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/createScreen"
+        android:name="com.example.olim_prototip.screen.CreateScreen"
+        android:label="screen_create"
+        tools:layout="@layout/screen_create" />
+    <fragment
+        android:id="@+id/mainScreen"
+        tools:layout="@layout/screen_main"
+        android:name="com.example.olim_prototip.screen.MainScreen"
+        android:label="MainScreen" >
+        <action
+            android:id="@+id/action_mainScreen_to_questinListScreen"
+            app:destination="@id/questinListScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_settingScreen"
+            app:destination="@id/settingScreen" />
+        <action
+            android:id="@+id/action_mainScreen_to_helpScreen"
+            app:destination="@id/helpScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/questinListScreen"
+        tools:layout="@layout/it_questions_screen"
+        android:name="com.example.olim_prototip.screen.QuestinListScreen"
+        android:label="QuestinListScreen" >
+        <action
+            android:id="@+id/action_questinListScreen_to_questinDetailScreen"
+            app:destination="@id/questinDetailScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/questinDetailScreen"
+        tools:layout="@layout/item_description"
+        android:name="com.example.olim_prototip.screen.QuestinDetailScreen"
+        android:label="QuestinDetailScreen" />
+    <fragment
+        android:id="@+id/forgetPasswordScreen"
+        android:name="com.example.olim_prototip.screen.ForgetPasswordScreen"
+        android:label="screen_forget_password"
+        tools:layout="@layout/screen_forget_password" />
+    <fragment
+        android:id="@+id/settingScreen"
+        tools:layout="@layout/setting_screen"
+        android:name="com.example.olim_prototip.screen.SettingScreen"
+        android:label="SettingScreen" />
+    <fragment
+        android:id="@+id/helpScreen"
+        tools:layout="@layout/help_screen"
+        android:name="com.example.olim_prototip.screen.HelpScreen"
+        android:label="HelpScreen" />
+</navigation>

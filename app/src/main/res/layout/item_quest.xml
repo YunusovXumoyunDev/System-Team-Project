@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="#1AFF00"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:text="Salom"
+            android:text="Salom"
+            android:textSize="32sp"
+            android:id="@+id/text"/>
+        <ImageView
+            android:layout_width="44dp"
+            android:visibility="invisible"
+            android:id="@+id/checkImage"
+            android:src="@drawable/img_done"
+            android:layout_height="44dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

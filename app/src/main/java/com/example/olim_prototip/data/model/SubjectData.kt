@@ -7,5 +7,5 @@ data class SubjectData(
     val name: String,
     @DrawableRes
     val image: Int,
-    val description: String
+    val description: Int
 )
